@@ -1,0 +1,44 @@
+.navigation-categories .search-banner {
+  margin: 0;
+  max-width: unset;
+  background-color: var(--primary);
+  border-radius: 0;
+  padding-bottom: 0;
+  height: unset;
+
+  .custom-search-banner {
+    margin: 0 auto;
+
+    .custom-search-banner-wrap {
+      margin: 0 auto;
+    }
+  }
+}
+
+.featured-fixed-topic-list h2.featured-topic-list-title {
+  padding-top: 0;
+}
+
+.custom-search-banner-wrap {
+  h1 {
+    display: flex;
+    flex-direction: column;
+    &::after {
+      content: "American Radio Club Community";
+      color: #E13129;
+    }
+  }
+
+  p {
+    font-size: $font-up-1;
+    color: rgba($secondary, 0.6);
+  }
+
+  .search-menu .search-input {
+    border: none;
+
+    input {
+      border-radius: 20px;
+    }
+  }
+}
